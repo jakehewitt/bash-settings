@@ -1,0 +1,7 @@
+# BEGIN MODULES
+if [ -d ~/.bash-settings/modules ]; then
+  for module in ~/.bash-settings/modules/**; do 
+    source $module; 
+  done
+fi
+# END MODULES
